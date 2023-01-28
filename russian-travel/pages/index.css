@@ -34,31 +34,19 @@
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
-
-.container {
-  max-width: 984px;
-  margin: 0 auto;
-}
-
-.page__common {
-  margin-bottom: 92px;
-}
-
 
 .header {
-  padding-top: 28px;
-}
-
-.header__container {
-  max-width: 1184px;
+  padding: 28px 16px 0;
   display: flex;
   justify-content: space-between;
   align-content: flex-end;
-  padding: 0 16px;
+}
+
+.header__content {
+  max-width: 1184px;
+  margin: 0 auto;
+
 }
 
 .header__logo {
@@ -79,16 +67,21 @@
   line-height: 1.17;
   color: #FFFFFF;
   text-align: right;
+}
+
+.header__item {
   margin-right: 18px;
 }
 
-.header__lang-link:last-child {
+.header__item:last-child {
   margin: 0;
 }
 
 .header__lang-link_type_inactive {
 text-decoration: none;
 }
+
+/*  луфв */
 
 
 .lead {
